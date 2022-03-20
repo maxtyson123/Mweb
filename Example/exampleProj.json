@@ -1,0 +1,141 @@
+[
+    {
+        "aspect": "^System",
+        "code": [ "C:\\Users\\98max\\OneDrive\\Documents\\Examples\\Exported\\mystyle.css", "C:\\Users\\98max\\OneDrive\\Documents\\Examples\\Exported\\Images\\", "path/to/js[enitre folder]", ".htm" ]
+    },
+    {
+        "aspect": "^html",
+        "code": [ "<!DOCTYPE html>", "<html>" ]
+    },
+    {
+        "aspect": "^head",
+        "code": [ "<head>", "<link rel='stylesheet' href='mystyle.css'>", "<link rel='icon' type='image/x-icon' href='http://mweb.maxinc.cf/logo.ico'>", "<meta name='viewport' content='width=device-width, initial-scale=1.0'>", "<title>Mweb 1.0</title>", "</head>" ]
+    },
+    {
+        "aspect": "^header",
+        "code": [
+            "<div",
+            "class='header'>",
+            "<h1>Mweb 1.0</h1>",
+            "<p>A",
+            "<b>responsive</b>",
+            "html",
+            "extentsion",
+            "in",
+            "C#.</p>",
+            "</div>"
+
+        ]
+    }, 
+    {
+        "aspect": "^navbar",
+        "code": [
+            "<div",
+            "class='navbar'>",
+            "<a",
+            "href='#'",
+            "class='active'>Home</a>",
+            "<a",
+            "href='/download/'>Download</a>",
+            "<a",
+            "href='#about'>About</a>",
+            "<a",
+            "href='https://maxinc.cf/'",
+            "class='right'>MaxInc</a>",
+            "</div>"
+
+
+
+        ]
+    },
+    {
+        "aspect": "^bodycontent",
+        "code": [
+            "<div",
+            "class='row'>",
+            "<div",
+            "class='side'>",
+            "<h2>Download</h2>",
+            "<h5>Via maxinc servers</h5>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:100px;'><a href=''>Download</a></div>",
+            "<h3>Mirrors</h3>",
+            "<p>Download from theese mirrors if main link unavalible</p>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:60px;'><a href=''>Download 1</a></div><br>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:60px;'><a href=''>Download 2</a></div><br>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:60px;'><a href=''>Download 3</a></div>",
+            "</div>",
+            "<div",
+            "class='main'>",
+            "<h2 id='about'>ABOUT MWEB</h2>",
+            "<img src='Images/img1.png' width='1000' height=500' '>",
+            "<p>Mweb is an extentsion built off of the idea of prefabs in unity. It all started when the dev was switching between designing a game in unity and designing the game's website, after hacing to painstakingly go through every page to fix a single bug on the webiste he came up with the idea of making a prefab like html extentsion. Using C# and visual studio a basic program was bulilt that takes 'aspects' eg. ^header, asciates it in a json file and then prints it to a html docs.</p>",
+            "<br>",
+            "<h2>Future",
+            " Features</h2>",
+            "<img src='Images/img2.png' width='1000' height=450' '>",
+            "<p>Future features to come to the MWEB project, major features like java script or multipage support coming in v2</p>",
+            "<ul>",
+            "<ul>",
+            "<li>Have",
+            "multiple",
+            "commnads</li>",
+            "<li>Support",
+            "images/js/css",
+            "on",
+            "non",
+            "exported",
+            "pages</li>",
+            "<li>Support",
+            "multipage</li>",
+            "<li>Have",
+            "native",
+            "web",
+            "support",
+            "via",
+            "js</li>",
+            "<li>auto",
+            "open",
+            "with",
+            "mweb",
+            "compiler</li>",
+            "<li>commands",
+            "supported",
+            "in",
+            "project.json</li>",
+            "<li>varibles",
+            "supported",
+            "in",
+            "text",
+            "like",
+            "args</li>",
+            "</ul>",
+            "</div>",
+            "</div>"
+        ]
+    }, 
+    {
+        "aspect": "^body",
+        "code": [ "<body>" ]
+    },
+    {
+        "aspect": "^footer",
+        "code": [
+            "<div",
+            "class='footer'>",
+            "<h2>MWEB 1.0 by Max Tyson</h2>",
+            "</div>"
+        ]
+    },
+    {
+        "aspect": "^end",
+        "code": [ "</body>", "</html>" ]
+    }
+]
