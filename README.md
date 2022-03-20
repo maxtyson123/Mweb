@@ -11,6 +11,7 @@
   Example: <br><pre>
    example project/<br>
                -- example.mweb<br>
+               -- examplePage2.mweb<br>
                -- exampleProj.json<br></pre>
  
  ### Json Setup  
