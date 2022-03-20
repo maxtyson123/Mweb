@@ -76,5 +76,28 @@
     }
 ]
  </pre>
- ### mweb Setup  
- To run your project with commands open a cmd window and type [path/to/.mweb] -[command] (list of commands can be shown via command -help)
+ ### .mweb Setup
+   Your mweb file is very simple to set up, first create a new text file with the required info, then write your aspects, after that save it  as a .mweb
+   <br> Required code<pre>
+   [projName].json
+   ^html
+   ^head
+   ^body
+   *your aspects
+   ^end
+   </pre>
+     <br> Example code<pre>
+   [projName].json
+exampleProj.json
+^html
+^head
+^body
+^header
+^navbar
+^footer
+^end
+   </pre>
+ ### Running mweb
+ To run your page just double click the .mweb and the rest shoudld work it self <br>
+ To run your project with commands open a cmd window and type [path/to/.mweb] -[command] (list of commands can be shown via command -help)<br>
+ To export your .mweb as specified file then run with the command -export
