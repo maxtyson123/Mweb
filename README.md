@@ -26,12 +26,12 @@
     {
         "aspect": "^html",
         "varibles": [ "&none" ],
-        "code": [ "<!DOCTYPE html>", "<html>" ] *THIS IS THE HTML PAGE HEADING CODE
+        "code": [ "< !DOCTYPE html>", "< html>" ] *THIS IS THE HTML PAGE HEADING CODE
     },
     {
         "aspect": "^head",
         "varibles": [ "&none" ],
-        "code": [ "<head>", "<link rel='stylesheet' href='mystyle.css'>", "<link rel='icon' type='image/x-icon' href='http://mweb.maxinc.cf/logo.ico'>", "<meta name='viewport' content='width=device-width, initial-scale=1.0'>", "<title>Mweb 1.0</title>", "</head>" ] *note the the css is different from the ^system aspect, this is becuase the system aspect uses css in a way to include your style sheet when displaying the debugable html page rather then the exported one
+        "code": [ "< head>", "< link rel='stylesheet' href='mystyle.css'>", "< link rel='icon' type='image/x-icon' href='http://mweb.maxinc.cf/logo.ico'>", " <meta name='viewport' content='width=device-width, initial-scale=1.0'>", "< title>Mweb 1.0</title>", "< /head>" ] *note the the css is different from the ^system aspect, this is becuase the system aspect uses css in a way to include your style sheet when displaying the debugable html page rather then the exported one
     },
  </pre>
   How aspects work:<pre>
@@ -56,36 +56,36 @@
     {
         "aspect": "^html",
         "varibles": [ "&none" ],
-        "code": [ "<!DOCTYPE html>", "<html>" ]
+        "code": [ "< !DOCTYPE html>", "< html>" ]
     },
     {
         "aspect": "^head",
         "varibles": [ "&none" ],
-        "code": [ "<head>", "<link rel='stylesheet' href='mystyle.css'>", "<link rel='icon' type='image/x-icon' href='http://mweb.maxinc.cf/logo.ico'>", "<meta name='viewport' content='width=device-width, initial-scale=1.0'>", "<title>Mweb 1.0</title>", "</head>" ]
+        "code": [ "< head>", "< link rel='stylesheet' href='mystyle.css'>", "< link rel='icon' type='image/x-icon' href='http://mweb.maxinc.cf/logo.ico'>", "< meta name='viewport' content='width=device-width, initial-scale=1.0'>", "< title>Mweb 1.0< /title>", "< /head>" ]
     },
     {
         "aspect": "^header",
         "varibles": [ "&none" ],
-        "code": ["<div","class='header'>","","<p>A","<b>responsive</b>","html","extentsion","in","C#.</p>","</div>"]
+        "code": ["< div","class='header'>","","< p>A","< b>responsive</ b>","html","extentsion","in","C#.< /p>","< /div>"]
     {
         "aspect": "^navbar",
         "varibles": [ "&none" ],
-        "code": ["<div","class='navbar'>","<a","href='#'","class='active'>Home</a>","<a","href='/download/'>Download</a>","<a","href='#about'>About</a>","<a","href='https://maxinc.cf/'","class='right'>MaxInc</a>","</div>"]
+        "code": ["< div","class='navbar'>","< a","href='#'","class='active'>Home< /a>","< a","href='/download/'>Download</a>","< a","href='#about'>About< /a>","< a","href='https://maxinc.cf/'","class='right'>MaxInc < /a>","< /div>"]
     },
         {
         "aspect": "^body",
         "varibles": [ "&none" ],
-        "code": [ "<body>" ]
+        "code": [ "< body>" ]
     },
     {
         "aspect": "^footer",
         "varibles": [ "&none" ],
-        "code": ["<div","class='footer'>","MWEB 1.0 by Max Tyson","</div>"]
+        "code": ["< div","class='footer'>","MWEB 1.0 by Max Tyson","< /div>"]
     },
     {
         "aspect": "^end",
         "varibles": [ "&none" ],
-        "code": [ "</body>", "</html>" ]
+        "code": [ "< /body>", "</ html>" ]
     }
 ]
  </pre>
