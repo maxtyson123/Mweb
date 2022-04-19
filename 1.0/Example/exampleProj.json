@@ -1,24 +1,17 @@
 [
     {
-        "aspect": "^System",
-        "code": [ "C:\\Users\\98max\\OneDrive\\Documents\\Examples\\Exported\\mystyle.css", "C:\\Users\\98max\\OneDrive\\Documents\\Examples\\Exported\\Images\\", "path/to/js[enitre folder]", ".htm" ]
-    },
-    {
-        "aspect": "^html",
-        "code": [ "<!DOCTYPE html>", "<html>" ]
-    },
-    {
-        "aspect": "^head",
-        "code": [ "<head>", "<link rel='stylesheet' href='mystyle.css'>", "<link rel='icon' type='image/x-icon' href='http://mweb.maxinc.cf/logo.ico'>", "<meta name='viewport' content='width=device-width, initial-scale=1.0'>", "<title>Mweb 1.0</title>", "</head>" ]
-    },
-    {
         "aspect": "^header",
+        "varibles": [ "&title","&data"],
         "code": [
             "<div",
             "class='header'>",
-            "<h1>Mweb 1.0</h1>",
+            "<h1>",
+            "&title",
+            "</h1>",
             "<p>A",
-            "<b>responsive</b>",
+            "<b>",
+            "&data",
+            "</b>",
             "html",
             "extentsion",
             "in",
@@ -26,9 +19,10 @@
             "</div>"
 
         ]
-    }, 
+    },
     {
         "aspect": "^navbar",
+        "varibles": [ "&none" ],
         "code": [
             "<div",
             "class='navbar'>",
@@ -50,6 +44,7 @@
     },
     {
         "aspect": "^bodycontent",
+        "varibles": [ "&none" ],
         "code": [
             "<div",
             "class='row'>",
@@ -120,22 +115,20 @@
             "</div>",
             "</div>"
         ]
-    }, 
+    },
     {
         "aspect": "^body",
+        "varibles": [ "&none" ],
         "code": [ "<body>" ]
     },
     {
         "aspect": "^footer",
+        "varibles": [ "&none" ],
         "code": [
             "<div",
             "class='footer'>",
             "<h2>MWEB 1.0 by Max Tyson</h2>",
             "</div>"
         ]
-    },
-    {
-        "aspect": "^end",
-        "code": [ "</body>", "</html>" ]
     }
 ]

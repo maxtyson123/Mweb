@@ -1,0 +1,94 @@
+[
+    {
+        "aspect": "^header",
+        "varibles": [ "&title","&data"],
+        "code": [
+            "<div",
+            "class='header'>",
+            "<h1>",
+            "&title",
+            "</h1>",
+            "<p>A",
+            "<b>",
+            "&data",
+            "</b>",
+            "html",
+            "extentsion",
+            "in",
+            "JS.</p>",
+            "</div>"
+
+        ]
+    },
+    {
+        "aspect": "^navbar",
+        "varibles": [ "&none" ],
+        "code": [
+            "<div",
+            "class='navbar'>",
+            "<a",
+            "href='#'",
+            "class='active'>Home</a>",
+            "<a",
+            "href='/download/'>Download</a>",
+            "<a",
+            "href='#about'>About</a>",
+            "<a",
+            "href='https://maxinc.cf/'",
+            "class='right'>MaxInc</a>",
+            "</div>"
+
+
+
+        ]
+    },
+    {
+        "aspect": "^bodycontent",
+        "varibles": [ "&none" ],
+        "code": [
+            "<div",
+            "class='row'>",
+            "<div",
+            "class='side'>",
+            "<h2>Code Snippet</h2>",
+            "<h5>Copy this code to include mweb in your project</h5>",
+            "<div class='fakeimg'",
+            "style='height:100px;'><xmp><script src='http://mweb.maxinc.cf/mweb.js' download></script></xmp></div>",
+            "<h3>Mirrors</h3>",
+            "<p>Download from theese mirrors if you want to include mweb in your project locally</p>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:60px;'><a href='http://mweb.maxinc.cf/mweb.js'>Download 1</a></div><br>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:60px;'><a href='https://github.com/maxtyson123/Mweb/releases/'>Download 2</a></div><br>",
+            "<div",
+            "class='fakeimg'",
+            "style='height:60px;'><a href='https://github.com/maxtyson123/Mweb/releases/'>Download 3</a></div>",
+            "</div>",
+            "<div",
+            "class='main'>",
+            "<h2 id='about'>ABOUT MWEB</h2>",
+            "<img src='Images/img1.png' width='1000' height=500' '>",
+            "<p>Mweb is an extentsion built off of the idea of prefabs in unity. It all started when the dev was switching between designing a game in unity and designing the game's website, after hacing to painstakingly go through every page to fix a single bug on the webiste he came up with the idea of making a prefab like html extentsion. Using C# and visual studio a basic program was bulilt that takes 'aspects' eg. ^header, asciates it in a json file and then prints it to a html docs.</p>",
+            "<br>",
+            "<h2>How to use</h2>",
+            "<img src='Images/img2.png' width='1000' height=450' '>",
+            "<script src='https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js'></script>",
+            "<script type='module' src='https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js'></script>",
+            "<zero-md src='https://raw.githubusercontent.com/maxtyson123/Mweb/main/README.md'></zero-md>",
+            "</div>",
+            "</div>"
+        ]
+    },
+    {
+        "aspect": "^footer",
+        "varibles": [ "&none" ],
+        "code": [
+            "<div",
+            "class='footer'>",
+            "<h2>MWEB 1.0 by Max Tyson</h2>",
+            "</div>"
+        ]
+    }
+]
